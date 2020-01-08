@@ -1,0 +1,17 @@
+{
+	"name": "FrequentlyBoughtWithItems-sample",
+	"title": "FrequentlyBoughtWithItems",
+	"version": "0.0.1",
+	"description": "Web Client Extension Sample for SAP Business One",
+	"homepage": "https://www.sap.com/products/business-one.html",
+	"author": {
+		"name": "SAP SE",
+		"icon": "https://d.dam.sap.com/a/mPPUT"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"express": "*",
+		"request": "*",
+		"cors": "*"
+	}
+}
