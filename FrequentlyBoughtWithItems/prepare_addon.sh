@@ -1,11 +1,13 @@
 #!/bin/bash
 
-# This script adds a UDO - Related Item to your system
+# This is a Bash script that adds a UDO "Related Item" to your B1 system
+# Having this UDO is a precondition to run the "FrequentlyBoughtWithItems" code sample.
+
 # set -x
 
 # Change the IP to your Service Layer IP
 SL_URL="http://0.0.0.0:50001/b1s/v1"
-# Change the IP to your Company DB, and your username and password
+# Change the Name to your Company DB, and your username and password
 CompanyDB="YourCompany DB"
 echo "Login company ${CompanyDB}"
 curl  -b cookies.txt -c cookies.txt \
