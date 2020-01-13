@@ -18,4 +18,9 @@ Please click the Register button and paste the URL you copied from previous step
 
 #### 3. Run Extension in Web Client
 
-* Please check new tab for Items detail view.<br>
+If the extension is running properly, the following should work:
+* Check if a new tab "Prequently Bought With Items" was added to the Items detail page.<br>
+* The data inside the new Grid, it comes from the "RelatedItem" UDO.
+* Click the "Create Order" button
+
+
